@@ -1,1 +1,71 @@
-hello bootcampjs
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>BootcampJS</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        background-color: #f7df1e;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      h1 {
+        font-size: 6rem;
+        font-weight: 900;
+        line-height: 6rem;
+      }
+      /* change font size in mobile devices */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+      p {
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        margin: 1rem
+      }
+      @media (max-width: 768px) {
+        p {
+          font-size: 1.6rem;
+          line-height: 2rem;
+        }
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 10vh auto;
+        text-align: center;
+      }
+      .btn {
+        padding: 1rem;
+        margin: 2rem;
+        background-color: black;
+        color: white;
+        border-radius: 1rem;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BootcampJS</h1>
+      <p>Herkes İçin Ücretsiz Temel Yazılım Eğitimi Yakında gerçekleşecek</p>
+      <p>Etkinliğe katılım için bilet ücretsiz bilet almak için aşağıdaki linke tıklayınız</p>
+      <a class="btn" href="#">Kayıt ol (Yakında)</a>
+    </div>
+  </body>
+</html>
